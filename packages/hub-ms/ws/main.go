@@ -207,6 +207,11 @@ func updateUserPos(userId string, x int, y int) {
 	UserPos[strPos] = userId
 }
 
+
+func isValidPos(userId string, x, y int) (){
+	
+}
+
 /*
 	func handleWsPos () {
 		maintain a userPosMap for each room.
